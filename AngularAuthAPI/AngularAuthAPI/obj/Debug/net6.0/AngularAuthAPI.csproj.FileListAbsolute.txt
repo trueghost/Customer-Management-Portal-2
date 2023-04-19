@@ -1,0 +1,201 @@
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\appsettings.Development.json
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\appsettings.json
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.exe
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.deps.json
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.runtimeconfig.json
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.pdb
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Humanizer.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.csproj.AssemblyReference.cache
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.AssemblyInfoInputs.cache
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.AssemblyInfo.cs
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.csproj.CoreCompileInputs.cache
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets\msbuild.AngularAuthAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.AngularAuthAPI.props
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AngularAuthAPI.props
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AngularAuthAPI.props
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets.pack.json
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets.build.json
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets.development.json
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\scopedcss\bundle\AngularAuthAPI.styles.css
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.csproj.CopyComplete
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\refint\AngularAuthAPI.dll
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.pdb
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.genruntimeconfig.cache
+D:\LOGIN\angular_auth\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\ref\AngularAuthAPI.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\appsettings.Development.json
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\appsettings.json
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.exe
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.deps.json
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.runtimeconfig.json
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.pdb
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Humanizer.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.csproj.AssemblyReference.cache
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.AssemblyInfoInputs.cache
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.AssemblyInfo.cs
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.csproj.CoreCompileInputs.cache
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets\msbuild.AngularAuthAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.AngularAuthAPI.props
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AngularAuthAPI.props
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AngularAuthAPI.props
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets.pack.json
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets.build.json
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets.development.json
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\scopedcss\bundle\AngularAuthAPI.styles.css
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.csproj.CopyComplete
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\refint\AngularAuthAPI.dll
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.pdb
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.genruntimeconfig.cache
+D:\customer management portal\project\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\ref\AngularAuthAPI.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\appsettings.Development.json
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\appsettings.json
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.exe
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.deps.json
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.runtimeconfig.json
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\AngularAuthAPI.pdb
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Humanizer.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.csproj.AssemblyReference.cache
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.AssemblyInfoInputs.cache
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.AssemblyInfo.cs
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.csproj.CoreCompileInputs.cache
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets\msbuild.AngularAuthAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.AngularAuthAPI.props
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AngularAuthAPI.props
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AngularAuthAPI.props
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets.build.json
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\staticwebassets.development.json
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\scopedcss\bundle\AngularAuthAPI.styles.css
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.csproj.CopyComplete
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\refint\AngularAuthAPI.dll
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.pdb
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\AngularAuthAPI.genruntimeconfig.cache
+D:\Customer Management Portal 2\AngularAuthAPI\AngularAuthAPI\obj\Debug\net6.0\ref\AngularAuthAPI.dll

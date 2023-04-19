@@ -1,0 +1,154 @@
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <!-- <div class="navbar-brand">Course Management Portal</div> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <button (click)="logout()" class="btn btn-dark">
+      <svg xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-box-arrow-left mb-1" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+        <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+      </svg> Logout
+    </button>
+    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <button class="btn btn-dark" (click)="tohome()"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+          <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+        </svg></button>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" (click)="data()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="20" fill="currentColor" class="bi bi-journal-text me-2 mb-1" viewBox="0 0 16 16">
+                <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+              </svg>
+              Data
+            </a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" (click)="search()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="20" fill="currentColor" class="bi bi-search me-2 mb-1" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+              Search
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<body>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Enter Customer Details Here
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <form #productsForm="ngForm" (ngSubmit)="addDetails(productsForm.value)">
+            <div class="row">
+            <div class="mb-3 col">
+              <label for="name" class="form-label">Name</label>
+              <input type="text text-danger" class="form-control" [(ngModel)]="name" name="Name"  required>
+            </div>
+            <div class="mb-3 col">
+              <label for="phNo" class="form-label">Phone Number</label>
+              <input type="text text-danger" class="form-control" pattern="^\d{10}$" minlength="10" maxlength="10" [(ngModel)]="phNo" name="PhNo" required>
+            </div>
+            <div class="mb-3 col">
+              <label for="email" class="form-label">Email</label>
+              <input type="text text-danger" class="form-control" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" [(ngModel)]="email" name="Email" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="mb-3 col">
+              <label for="countryId" class="form-label">
+               Country
+              </label>
+              <select class="form-control form-select" (change)="updateStates()" aria-label="Default select example" name="CountryId" id="countryId" [(ngModel)]="countryId" required>
+                <option [selected]="countryId === type.Id" *ngFor="let type of countryList$ | async" [value]="type.Id">{{ type.CountryName }}</option>
+            </select>
+          </div>
+          <div class="mb-3 col">
+            <label for="stateId" class="form-label">
+             State
+            </label>
+            <select class="form-control form-select" [disabled]="!countryId" aria-label="Default select example" name="StateId" id="stateId" [(ngModel)]="stateId" required>
+              <option [selected]="stateId === type.Id" *ngFor="let type of stateList$ | async" [value]="type.Id">{{ type.StateName }}</option>
+          </select>
+        </div>
+        </div>
+        <div class="row">
+        <div class="mb-3 col">
+          <label for="remarks" class="form-label">Remarks</label>
+          <textarea class="form-control" id="remarks" rows="3" [(ngModel)]="remarks" name="Remarks" required></textarea>
+        </div>
+        <div class="mb-3 mt-5 col">
+        <label  for="gstEnable" class="form-label me-2">GST Enable</label>
+        <input type="checkbox" [(ngModel)]="gstEnable" name="GSTEnable">
+        </div>
+      </div>
+        <div class="mb-3" style="width: 30%;">
+          <label for="datepicker" class="form-label mb-1">Registered Date</label>
+          <input type="date" class="form-control" [(ngModel)]="createdDate" name="CreatedDate" required>
+        </div>
+        <input class="btn btn-primary mt-4" type="submit" value="{{editMode ? 'Update' : 'Add'}}">
+        </form>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <table class="table">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Phone Number</th>
+          <th scope="col">Email</th>
+          <th scope="col">Country</th>
+          <th scope="col">State</th>
+          <th scope="col">Remarks</th>
+          <th scope="col">GST Enable</th>
+          <th scope="col">Date</th>
+          <th scope="col">Status</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of allProducts; index as i">
+          <th scope="row">{{i+1}}</th>
+          <td>{{item.Name}}</td>
+          <td>{{item.PhNo}}</td>
+          <td>{{item.Email}}</td>
+          <td>{{countryDetailsMap.get(item.CountryId)}}</td>
+          <td>{{stateDetailsMap.get(item.StateId)}}</td>
+          <td>{{item.Remarks}}</td>
+          <td>{{item.GSTEnable}}</td>
+          <td>{{item.CreatedDate | date:'dd-MM-yyyy'}}</td>
+          <td>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" [(ngModel)]="item.status" (click)="onToggle(item)">
+              <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+            </div>
+          </td>
+          <td>
+            <button class="btn btn-outline-primary me-2 mb-1" type="button" (click)="updateCourse(item.CustomerId)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+              <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+              <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+            </svg></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</body>

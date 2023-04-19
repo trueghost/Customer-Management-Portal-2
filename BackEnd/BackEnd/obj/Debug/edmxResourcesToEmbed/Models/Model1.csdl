@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CountryName">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CountryName1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="CustomerDetails" Relationship="Self.FK_CustomerDetails_CountryName_CountryId" FromRole="CountryName" ToRole="CustomerDetails" />
+  </EntityType>
+  <EntityType Name="CustomerDetail">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PhNo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CountryId" Type="Int32" Nullable="false" />
+    <Property Name="StateId" Type="Int32" Nullable="false" />
+    <Property Name="Remarks" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="GSTEnable" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="status" Type="Int32" />
+    <NavigationProperty Name="CountryName" Relationship="Self.FK_CustomerDetails_CountryName_CountryId" FromRole="CustomerDetails" ToRole="CountryName" />
+    <NavigationProperty Name="State" Relationship="Self.FK_CustomerDetails_State_StateId" FromRole="CustomerDetails" ToRole="State" />
+  </EntityType>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StateName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="CustomerDetails" Relationship="Self.FK_CustomerDetails_State_StateId" FromRole="State" ToRole="CustomerDetails" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Username" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_CustomerDetails_CountryName_CountryId">
+    <End Role="CountryName" Type="Self.CountryName" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CustomerDetails" Type="Self.CustomerDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CountryName">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CustomerDetails">
+        <PropertyRef Name="CountryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CustomerDetails_State_StateId">
+    <End Role="State" Type="Self.State" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CustomerDetails" Type="Self.CustomerDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CustomerDetails">
+        <PropertyRef Name="StateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CustomerEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CountryNames" EntityType="Self.CountryName" />
+    <EntitySet Name="CustomerDetails" EntityType="Self.CustomerDetail" />
+    <EntitySet Name="States" EntityType="Self.State" />
+    <EntitySet Name="users" EntityType="Self.user" />
+    <AssociationSet Name="FK_CustomerDetails_CountryName_CountryId" Association="Self.FK_CustomerDetails_CountryName_CountryId">
+      <End Role="CountryName" EntitySet="CountryNames" />
+      <End Role="CustomerDetails" EntitySet="CustomerDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CustomerDetails_State_StateId" Association="Self.FK_CustomerDetails_State_StateId">
+      <End Role="State" EntitySet="States" />
+      <End Role="CustomerDetails" EntitySet="CustomerDetails" />
+    </AssociationSet>
+    <FunctionImport Name="ChangeStatus" ReturnType="Collection(String)">
+      <Parameter Name="CustomerId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CountryEntry">
+      <Parameter Name="CountryName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="CountryFetch" ReturnType="Collection(Model.CountryFetch_Result)" />
+    <FunctionImport Name="CustomerDeletion">
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="CustomerEntry" ReturnType="Collection(Model.CustomerEntry_Result)">
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="PhNo" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="CountryID" Mode="In" Type="Int32" />
+      <Parameter Name="StateID" Mode="In" Type="Int32" />
+      <Parameter Name="Remarks" Mode="In" Type="String" />
+      <Parameter Name="CreatedDate" Mode="In" Type="String" />
+      <Parameter Name="GSTEnable" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CustomerFetch" ReturnType="Collection(Model.CustomerFetch_Result)" />
+    <FunctionImport Name="CustomerSearch">
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="PhNo" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="CustomerSearchDate" ReturnType="Collection(Model.CustomerSearchDate_Result)">
+      <Parameter Name="Fromdate" Mode="In" Type="DateTime" />
+      <Parameter Name="Todate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="CustomerUpdate" ReturnType="Collection(Model.CustomerUpdate_Result)">
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="PhNo" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="CountryID" Mode="In" Type="Int32" />
+      <Parameter Name="StateID" Mode="In" Type="Int32" />
+      <Parameter Name="Remarks" Mode="In" Type="String" />
+      <Parameter Name="CreatedDate" Mode="In" Type="String" />
+      <Parameter Name="GSTEnable" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="LoginEntry">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="PassWord" Mode="In" Type="String" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="CreatedUserID" Mode="In" Type="Int32" />
+      <Parameter Name="CreatedDate" Mode="In" Type="DateTime" />
+      <Parameter Name="CreatedDateTime" Mode="In" Type="DateTime" />
+      <Parameter Name="Status" Mode="In" Type="Byte" />
+    </FunctionImport>
+    <FunctionImport Name="LoginValidation">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="PassWord" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="StateEntry">
+      <Parameter Name="StateName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="StateFetch" ReturnType="Collection(Model.StateFetch_Result)" />
+    <FunctionImport Name="StatusChange">
+      <Parameter Name="CustomerId" Mode="In" Type="Int32" />
+      <Parameter Name="Status" Mode="In" Type="Byte" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="CountryFetch_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="CountryName" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="CustomerEntry_Result">
+    <Property Type="Decimal" Name="CustomerID" Nullable="true" Precision="38" Scale="0" />
+    <Property Type="String" Name="ResponseMessage" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="ResponseCode" Nullable="true" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="CustomerFetch_Result">
+    <Property Type="Int32" Name="CustomerId" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" />
+    <Property Type="String" Name="PhNo" Nullable="false" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="200" />
+    <Property Type="Int32" Name="CountryId" Nullable="false" />
+    <Property Type="Int32" Name="StateId" Nullable="false" />
+    <Property Type="String" Name="Remarks" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="GSTEnable" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="CreatedDate" Nullable="false" />
+    <Property Type="Int32" Name="status" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="CustomerSearchDate_Result">
+    <Property Type="Int32" Name="CustomerId" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" />
+    <Property Type="String" Name="PhNo" Nullable="false" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="200" />
+    <Property Type="Int32" Name="CountryId" Nullable="false" />
+    <Property Type="Int32" Name="StateId" Nullable="false" />
+    <Property Type="String" Name="Remarks" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="GSTEnable" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="CreatedDate" Nullable="false" />
+    <Property Type="Int32" Name="status" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="CustomerUpdate_Result">
+    <Property Type="Decimal" Name="CustomerID" Nullable="true" Precision="38" Scale="0" />
+    <Property Type="String" Name="ResponseMessage" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="ResponseCode" Nullable="true" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="StateFetch_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="StateName" Nullable="false" />
+  </ComplexType>
+</Schema>
